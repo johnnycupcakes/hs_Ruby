@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hellosign ROR</title>
+    <%= csrf_meta_tags %>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body>
+  <nav class="navbar navbar-light bg-faded">
+  <button class="navbar-toggler hidden-lg-up pull-xs-right" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+    &#9776;
+  </button>
+  <div class="collapse navbar-toggleable-md" id="exCollapsingNavbar">
+    <ul class="nav navbar-nav pull-md-right">
+      <li class="nav-item active">
+        <li class="active"><a href="../signatures/home"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+      </li>
+      <li class="nav-item">
+        <li><a href="../signatures/new"><span class="glyphicon glyphicon-list-alt"></span> Embedded Request With Template</a></li>
+      </li>
+      <li class="nav-item">
+        <li><a href="../sig3/new"><span class="glyphicon glyphicon-envelope"></span> Embedded Request With Document</a></li>
+      </li>
+      <li class="nav-item">
+       <li><a href="../sig2/new"><span class="glyphicon glyphicon-list"></span> Non-Embedded Request With Template</a></li>
+      </li>
+      <li class="nav-item">
+        <li><a href="../sig4/new"><span class="glyphicon glyphicon-send"></span> Non-Embedded Request With Document</a></li>
+      </li>
+      <li class="nav-item">
+        <li><a href="../requesting/new"><span class="glyphicon glyphicon-phone-alt"></span> Embedded Requesting for Non-Embedded Signing</a></li>
+        <li><a href="../template/new"><span class="glyphicon glyphicon-text-size"></span> Embedded Templates</a></li>
+      </li>
+    </ul>
+  </div>
+</nav>
+    <%= yield %>
+  </body>
+</html>

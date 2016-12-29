@@ -1,0 +1,35 @@
+<body>
+	<%= form_tag template_index_path, method: :post do %>
+	  <%= label_tag 'API Key' %>
+	  <%= text_field_tag :api_key %>
+	   <%= label_tag 'Client ID' %>
+	  <%= text_field_tag :client_id %>
+	  <%= label_tag 'Template Title' %>
+	  <%= text_field_tag :title %>
+	  <%= label_tag 'Subject' %>
+	  <%= text_field_tag :subject %>
+	  <%= label_tag 'Message' %>
+	  <%= text_field_tag :message %>
+	  <%= label_tag 'Signer Role' %>
+	  <%= text_field_tag :signer_role %>
+	  <%= label_tag 'Signer Order 1-5 (leave blank if there is no order)' %>
+	  <%= text_field_tag :signer_order %>
+	  <%= label_tag 'Signer Role 2 (leave blank if there is only 1 signer)' %>
+	  <%= text_field_tag :signer_role2 %>
+	  <%= label_tag 'Signer Order 1-5 (leave blank if there is no order)' %>
+	  <%= text_field_tag :signer_order2 %>
+	  <%= label_tag 'Signer Role 3 (leave blank if there is only 2 signers)' %>
+	  <%= text_field_tag :signer_role3 %>
+	  <%= label_tag 'Signer Order 1-5 (leave blank if there is no order)' %>
+	  <%= text_field_tag :signer_order3 %>
+	  <%= label_tag 'Signer Role 4 (leave blank if there is only 3 signers)' %>
+	  <%= text_field_tag :signer_role4 %>
+	  <%= label_tag 'Signer Order 1-5 (leave blank if there is no order)' %>
+	  <%= text_field_tag :signer_order4 %>
+	  <%= label_tag 'Signer Role 5 (leave blank if there is only 4 signers)' %>
+	  <%= text_field_tag :signer_role5 %>
+	  <%= label_tag 'Signer Order 1-5 (leave blank if there is no order)' %>
+	  <%= text_field_tag :signer_order5 %>
+	  <%= submit_tag 'Create Embedded Template' %>
+	<% end %>
+	</body>

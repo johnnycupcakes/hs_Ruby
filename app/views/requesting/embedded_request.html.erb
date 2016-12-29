@@ -1,0 +1,17 @@
+<!-- Gotta include the HelloSign embedded.js library -->
+<script type="text/javascript" src="https://s3.amazonaws.com/cdn.hellosign.com/public/js/hellosign-embedded.LATEST.min.js"></script>
+<!-- Open the embedded signer iFrame -->
+<script type="text/javascript">
+// <![CDATA[
+ HelloSign.init( '<%= @client_id %>');
+  HelloSign.open({
+    'url': '<%= @claim_url %>',
+    'allowCancel': true,
+    'skipDomainVerification': true,
+    'uxVersion': 2,
+    'messageListener': function(eventData) {
+      
+    }
+  });
+// ]]>
+</script>

@@ -1,0 +1,15 @@
+<body>
+	<%= form_tag requesting_index_path, method: :post do %>
+	  <%= label_tag 'API Key' %>
+	  <%= text_field_tag :api_key %>
+	  <%= label_tag 'Client ID' %>
+	  <%= text_field_tag :client_id %>
+	  <%= label_tag 'File' %>
+      <%= file_field_tag :upload %>
+	  <%= label_tag 'Subject' %>
+	  <%= text_area_tag :subject %>
+	  <%= label_tag 'Requester Email Address' %>
+	  <%= text_field_tag :requester_email_address %>
+	  <%= submit_tag 'Embedded Requesting with Document for Non-Embedded Signing' %>
+	<% end %>
+	</body>

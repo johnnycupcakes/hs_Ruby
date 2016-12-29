@@ -1,0 +1,23 @@
+<body>
+	<%= form_tag sig2_index_path, method: :post do %>
+	  <%= label_tag 'Name' %>
+	  <%= text_field_tag :name %>
+	  <%= label_tag 'Email' %>
+	  <%= text_field_tag :email %>
+	  <%= label_tag 'API Key' %>
+	  <%= text_field_tag :api_key %>
+	  <%= label_tag 'Request Subject' %>
+	  <%= text_field_tag :subject %>
+	  <%= label_tag 'Request Message' %>
+	  <%= text_area_tag :message %>
+	  <%= label_tag 'Template ID' %>
+	  <%= text_field_tag :template_id %>
+	  <%= label_tag 'Signer Name' %>
+	  <%= text_field_tag :signer_name %>
+	  <%= label_tag 'Signer Email' %>
+	  <%= text_field_tag :signer_email %>
+	  <%= label_tag 'Signer Role' %>
+	  <%= text_field_tag :signer_role %>
+	  <%= submit_tag 'Create Non-Embedded Signature Request with Template' %>
+	<% end %>
+	</body>
