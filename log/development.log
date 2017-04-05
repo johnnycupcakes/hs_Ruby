@@ -13321,3 +13321,1803 @@ Completed 200 OK in 715ms (Views: 709.2ms | ActiveRecord: 0.0ms)
 Completed 200 OK in 726ms (Views: 712.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2017-01-16 10:57:20 -0800
+Started GET "/" for ::1 at 2017-01-16 10:57:21 -0800
+  
+  
+Gem::LoadError (Specified 'sqlite3' for database adapter, but the gem is not loaded. Add `gem 'sqlite3'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+Gem::LoadError (Specified 'sqlite3' for database adapter, but the gem is not loaded. Add `gem 'sqlite3'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  
+  
+activerecord (5.0.0.1) lib/active_record/connection_adapters/connection_specification.rb:176:in `rescue in spec'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/connection_specification.rb:176:in `rescue in spec'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/connection_specification.rb:173:in `spec'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:53:in `establish_connection'
+activerecord (5.0.0.1) lib/active_record/railtie.rb:125:in `block (2 levels) in <class:Railtie>'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+activerecord (5.0.0.1) lib/active_record/connection_adapters/connection_specification.rb:173:in `spec'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+activerecord (5.0.0.1) lib/active_record/connection_handling.rb:53:in `establish_connection'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+activerecord (5.0.0.1) lib/active_record/railtie.rb:125:in `block (2 levels) in <class:Railtie>'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:44:in `each'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+activerecord (5.0.0.1) lib/active_record/base.rb:324:in `<module:ActiveRecord>'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+activerecord (5.0.0.1) lib/active_record/base.rb:24:in `<top (required)>'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:44:in `each'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `require'
+activesupport (5.0.0.1) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `block in require'
+activerecord (5.0.0.1) lib/active_record/base.rb:324:in `<module:ActiveRecord>'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:259:in `load_dependency'
+activerecord (5.0.0.1) lib/active_record/base.rb:24:in `<top (required)>'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `require'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `require'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `block in require'
+activerecord (5.0.0.1) lib/active_record/migration.rb:558:in `connection'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:259:in `load_dependency'
+activerecord (5.0.0.1) lib/active_record/migration.rb:545:in `call'
+activesupport (5.0.0.1) lib/active_support/dependencies.rb:293:in `require'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activerecord (5.0.0.1) lib/active_record/migration.rb:558:in `connection'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activerecord (5.0.0.1) lib/active_record/migration.rb:545:in `call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+activesupport (5.0.0.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (12.3ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (209.6ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (343.4ms)
+Started GET "/" for ::1 at 2017-01-16 11:00:13 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SignaturesController#home as HTML
+  Rendering signatures/home.html.erb within layouts/application
+  Rendered signatures/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 1016ms (Views: 994.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sig4/new" for ::1 at 2017-01-16 11:00:23 -0800
+Processing by Sig4Controller#new as HTML
+  Rendering sig4/new.html.erb within layouts/application
+  Rendered sig4/new.html.erb within layouts/application (8.6ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2..4)):
+    17: 	  <%= label_tag 'Signer Email' %>
+    18: 	  <%= text_field_tag :signer_email %>
+    19: 	  <%= label_tag 'Use Text Tags' %>
+    20: 	  <%= radio_button_tag :use_text_tags %>
+    21: 	  <%= label_tag 'Hide Text Tags' %>
+    22: 	  <%= radio_button_tag :hide_text_tags %>
+    23: 	  <%= submit_tag 'Create Non-Embedded Signature Request with Document' %>
+  
+app/views/sig4/new.html.erb:20:in `block in _app_views_sig__new_html_erb___735086145879732158_70321663491120'
+app/views/sig4/new.html.erb:2:in `_app_views_sig__new_html_erb___735086145879732158_70321663491120'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (80.9ms)
+Started GET "/sig4/new" for ::1 at 2017-01-16 11:45:39 -0800
+Processing by Sig4Controller#new as HTML
+  Rendering sig4/new.html.erb within layouts/application
+  Rendered sig4/new.html.erb within layouts/application (409.1ms)
+Completed 500 Internal Server Error in 447ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007fea138b5038>:0x007fea17bcbe30>):
+    17: 	  <%= label_tag 'Signer Email' %>
+    18: 	  <%= text_field_tag :signer_email %>
+    19: 	  <%= label_tag 'Use Text Tags' %>
+    20: 	  <%= f.check_box :use_text_tags, {}, true, false %>
+    21: 	  <%= label_tag 'Hide Text Tags' %>
+    22: 	  <%= f.check_box :hide_text_tags, {}, true, false %>
+    23: 	  <%= submit_tag 'Create Non-Embedded Signature Request with Document' %>
+  
+app/views/sig4/new.html.erb:20:in `block in _app_views_sig__new_html_erb___735086145879732158_70321697622860'
+app/views/sig4/new.html.erb:2:in `_app_views_sig__new_html_erb___735086145879732158_70321697622860'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.9ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (143.0ms)
+Started GET "/sig4/new" for ::1 at 2017-01-16 12:18:53 -0800
+Processing by Sig4Controller#new as HTML
+  Rendering sig4/new.html.erb within layouts/application
+  Rendered sig4/new.html.erb within layouts/application (151.9ms)
+Completed 200 OK in 772ms (Views: 735.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sig4/new" for ::1 at 2017-01-16 12:19:15 -0800
+Processing by Sig4Controller#new as HTML
+  Rendering sig4/new.html.erb within layouts/application
+  Rendered sig4/new.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 239ms (Views: 235.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sig4/new" for ::1 at 2017-01-16 12:19:50 -0800
+Processing by Sig4Controller#new as HTML
+  Rendering sig4/new.html.erb within layouts/application
+  Rendered sig4/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 145ms (Views: 141.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sig4/new" for ::1 at 2017-01-16 12:20:20 -0800
+Processing by Sig4Controller#new as HTML
+  Rendering sig4/new.html.erb within layouts/application
+  Rendered sig4/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 50ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sig4" for ::1 at 2017-01-16 12:25:01 -0800
+Processing by Sig4Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"erVT+/7TgsvjQcTdv93gZ7ubuCOMX7Zcb/rbDAbbp1jwDWKj+1q2jpepqgeLJC5NEtk8oARNmu6N6iHWI3E0sg==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "subject"=>"This", "message"=>"d", "upload"=>#<ActionDispatch::Http::UploadedFile:0x007fea1772d1f8 @tempfile=#<Tempfile:/var/folders/rv/rnrwqp2j3bj4n4y1k12lbfz80000gn/T/RackMultipart20170116-15282-gyosp5.rtf>, @original_filename="text tag test.rtf", @content_type="text/rtf", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"text tag test.rtf\"\r\nContent-Type: text/rtf\r\n">, "signer_name"=>"Niccc", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Non-Embedded Signature Request with Document"}
+  Rendering sig4/sent.html.erb within layouts/application
+  Rendered sig4/sent.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1464ms (Views: 84.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sig4" for ::1 at 2017-01-17 12:34:38 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActionController::RoutingError (No route matches [GET] "/sig4"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered collection of /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [20 times] (24.8ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (44.1ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (21.2ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (256.6ms)
+Started GET "/sig4/new" for ::1 at 2017-01-17 12:34:43 -0800
+Processing by Sig4Controller#new as HTML
+  Rendering sig4/new.html.erb within layouts/application
+  Rendered sig4/new.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 675ms (Views: 670.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sig4" for ::1 at 2017-01-17 12:35:17 -0800
+Processing by Sig4Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5piur4vrhtFQUFpSEB90bo6+1v3DgLHq5eFL168rPa9sIJ/3jmKylCS4NIgk5rpEJ/xSfkuSnVgH8bENioGuRQ==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "subject"=>"This", "message"=>"dd", "upload"=>#<ActionDispatch::Http::UploadedFile:0x007f8b8444cf70 @tempfile=#<Tempfile:/var/folders/rv/rnrwqp2j3bj4n4y1k12lbfz80000gn/T/RackMultipart20170117-15513-sqyqsy.rtf>, @original_filename="text tag test.rtf", @content_type="text/rtf", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"text tag test.rtf\"\r\nContent-Type: text/rtf\r\n">, "signer_name"=>"Niccc", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Non-Embedded Signature Request with Document"}
+  Rendering sig4/sent.html.erb within layouts/application
+  Rendered sig4/sent.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1032ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sig3/new" for ::1 at 2017-01-17 12:49:48 -0800
+Processing by Sig3Controller#new as HTML
+  Rendering sig3/new.html.erb within layouts/application
+  Rendered sig3/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 74ms (Views: 72.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sig3" for ::1 at 2017-01-17 12:50:18 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MyqRNpmHE5uz8k9LeJe3ER2cDml+3h5inZONBC5Ph6/Kn52k12IWlHKyRJWBwgVtIWPkk+DnmEDwTdVqFZ9SAA==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"text tag test.rtf", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (text tag test.rtf was not found on the filesystem):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.7ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (96.1ms)
+Started POST "/sig3" for ::1 at 2017-01-17 12:50:41 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fSE9EE4QoGU2tnqgZmTNAPATSp3zu4W1OOv267soEy73mQxIS5mUIEJeFHpSnQMqWVHOHnupqQfa+wwxnoKAxA==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"text tag test.rtf", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (text tag test.rtf was not found on the filesystem):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.4ms)
+Started POST "/sig3" for ::1 at 2017-01-17 12:51:18 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fSE9EE4QoGU2tnqgZmTNAPATSp3zu4W1OOv267soEy73mQxIS5mUIEJeFHpSnQMqWVHOHnupqQfa+wwxnoKAxA==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"shaleen.png", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (shaleen.png was not found on the filesystem):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (91.0ms)
+Started GET "/sig3/new" for ::1 at 2017-01-17 15:59:24 -0800
+Processing by Sig3Controller#new as HTML
+  Rendering sig3/new.html.erb within layouts/application
+  Rendered sig3/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 114ms (Views: 111.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sig3" for ::1 at 2017-01-17 15:59:42 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XmmibQix3LyIDtIYii1xLGqVaoJpqbjY3ZVv8snVbprU0ZM1DTjo+fzmvMK+1L8Gw9fuAeG7lGo/hZUo7H/9cA==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"Capture.JPG", "signer_email"=>"nicholas.boutte+224@hellosign.com", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (Capture.JPG was not found on the filesystem):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (80.3ms)
+Started GET "/sig3/new" for ::1 at 2017-01-17 16:03:56 -0800
+Processing by Sig3Controller#new as HTML
+  Rendering sig3/new.html.erb within layouts/application
+  Rendered sig3/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 37ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sig3" for ::1 at 2017-01-17 16:04:13 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KINquvzD9ZgYjMBSlgAWUlnm7/F97XJIZte3KROuQfOiO1vi+UrB3Wxkroii+dh48KRrcvX/XvqEx03zNgTSGQ==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"ccRolesMissing.png", "signer_email"=>"nicholas.boutte+224@hellosign.com", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (ccRolesMissing.png was not found on the filesystem):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (72.1ms)
+Started POST "/sig3" for ::1 at 2017-01-17 16:26:43 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KINquvzD9ZgYjMBSlgAWUlnm7/F97XJIZte3KROuQfOiO1vi+UrB3Wxkroii+dh48KRrcvX/XvqEx03zNgTSGQ==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"ccRolesMissing.png", "signer_email"=>"nicholas.boutte+224@hellosign.com", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (ccRolesMissing.png was not found on the filesystem):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.6ms)
+Started GET "/sig3/new" for ::1 at 2017-01-17 16:26:48 -0800
+Processing by Sig3Controller#new as HTML
+  Rendering sig3/new.html.erb within layouts/application
+  Rendered sig3/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 130ms (Views: 123.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sig3" for ::1 at 2017-01-17 16:27:05 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZS8O6HUvNzucOiR8fH29XOTFp44FE7EowH4cfgstNxTvlz+wcKYDfujSSqZIhHN2TYcjDY0BnZoibuakLoek/g==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"Capture.JPG", "signer_email"=>"nicholas.boutte+224@hellosign.com", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (Capture.JPG was not found on the filesystem):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (72.2ms)
+Started GET "/signatures/new" for ::1 at 2017-01-17 16:27:28 -0800
+Processing by SignaturesController#new as HTML
+  Rendering signatures/new.html.erb within layouts/application
+  Rendered signatures/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 41ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signatures" for ::1 at 2017-01-17 16:27:38 -0800
+Processing by SignaturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1aYWCOp6emlPipHNeEk9G39yK2qKl1q4JxyIbJzDUojXmPlF0s+CYJrnGJ2MBZ70WqyRL9y3fBZT7E4JaN8Ubw==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "template_id"=>"85eb6d1cdbca7780f9e875697c36bc762e0fec67", "subject"=>"This", "signer_role"=>"1", "commit"=>"Create Embedded Signature Request with Template"}
+  Rendering signatures/embedded_signature.html.erb within layouts/application
+  Rendered signatures/embedded_signature.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1901ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signatures/home" for ::1 at 2017-01-17 16:27:55 -0800
+Processing by SignaturesController#home as HTML
+  Rendering signatures/home.html.erb within layouts/application
+  Rendered signatures/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 37ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sig3/new" for ::1 at 2017-01-18 13:54:55 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Sig3Controller#new as HTML
+  Rendering sig3/new.html.erb within layouts/application
+  Rendered sig3/new.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 721ms (Views: 697.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sig3" for ::1 at 2017-01-18 13:55:46 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"afHFR+/V0paOg0Hc3GYDd8sQ9aGVBaYuTJNHmp8xBQqQRMnVoTDXmU/DSgIlM7EL9+8fWws8IAwhTR/0pOHQpQ==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"Capture.JPG", "signer_email"=>"nicholas.boutte+224@hellosign.com", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (Capture.JPG was not found on the filesystem):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.7ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.4ms)
+Started GET "/sig4/new" for ::1 at 2017-01-18 14:46:21 -0800
+Processing by Sig4Controller#new as HTML
+  Rendering sig4/new.html.erb within layouts/application
+  Rendered sig4/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 121ms (Views: 109.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sig4" for ::1 at 2017-01-18 14:46:47 -0800
+Processing by Sig4Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"S7avuYTxYcZJqCcu0DqSdL/jJ6mCglsMoZcwcOP46NHCE7hv55BEEf5+onUsiDWBOMBK/uWb8AlsEdgj0VBx/A==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "subject"=>"This", "message"=>"d", "upload"=>#<ActionDispatch::Http::UploadedFile:0x007faa8780b310 @tempfile=#<Tempfile:/var/folders/rv/rnrwqp2j3bj4n4y1k12lbfz80000gn/T/RackMultipart20170118-30002-jvqwez.rtf>, @original_filename="text tag test.rtf", @content_type="text/rtf", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"text tag test.rtf\"\r\nContent-Type: text/rtf\r\n">, "signer_name"=>"Niccc", "signer_email"=>"", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Non-Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 734ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::BadRequest (Server responded with code 400
+Request URI: https://api.hellosign.com/v3/signature_request/send
+Message: {"error":{"error_msg":"Must specify an email_address for each signer","error_name":"bad_request"}}):
+  
+app/controllers/sig4_controller.rb:21:in `create_signature_request'
+app/controllers/sig4_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (106.2ms)
+Started POST "/sig4" for ::1 at 2017-01-18 14:47:03 -0800
+Processing by Sig4Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oG3SyRfnreIdt6LOnFx/TphNDU6x6hHnHiybcTFrbyUq1eOREm6Zp2lfzBSopbFkMQ+JzTn4PVX8PGGrFMH8zw==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "subject"=>"This", "message"=>"d", "upload"=>#<ActionDispatch::Http::UploadedFile:0x007faa844b0d08 @tempfile=#<Tempfile:/var/folders/rv/rnrwqp2j3bj4n4y1k12lbfz80000gn/T/RackMultipart20170118-30002-ukzca8.rtf>, @original_filename="text tag test.rtf", @content_type="text/rtf", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"text tag test.rtf\"\r\nContent-Type: text/rtf\r\n">, "signer_name"=>"Niccc", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Non-Embedded Signature Request with Document"}
+  Rendering sig4/sent.html.erb within layouts/application
+  Rendered sig4/sent.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1132ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sig3/new" for ::1 at 2017-01-18 14:47:48 -0800
+Processing by Sig3Controller#new as HTML
+  Rendering sig3/new.html.erb within layouts/application
+  Rendered sig3/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 62ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sig3" for ::1 at 2017-01-18 14:48:12 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wYv+J6q+Auj3jbyVklKSL8f6c6kQDv3Osn8Ljn11ydE4PvK15FsH5zbNt0trByBT+wWZU443e+zfoVPgRqUcfg==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"text tag test.rtf", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (text tag test.rtf was not found on the filesystem):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.2ms)
+Started POST "/sig3" for ::1 at 2017-01-18 17:39:00 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ooRYQrzIk4tYB0A/5Iz7NafMJ+R08OExypQPzqlVUNsoPGkauUGnzizvLuXQdTUfDo6jZ/zizYMohPUUjP/DMQ==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"text tag test.rtf", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (text tag test.rtf was not found on the filesystem):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (49.3ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.4ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (134.1ms)
+Started GET "/" for ::1 at 2017-01-26 12:42:48 -0800
+Started GET "/" for ::1 at 2017-01-26 12:42:48 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SignaturesController#home as HTML
+Processing by SignaturesController#home as HTML
+  Rendering signatures/home.html.erb within layouts/application
+  Rendering signatures/home.html.erb within layouts/application
+  Rendered signatures/home.html.erb within layouts/application (3.8ms)
+  Rendered signatures/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 916ms (Views: 902.5ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 912ms (Views: 900.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sig3/new" for ::1 at 2017-01-26 12:47:58 -0800
+Processing by Sig3Controller#new as HTML
+  Rendering sig3/new.html.erb within layouts/application
+  Rendered sig3/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 45ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sig3" for ::1 at 2017-01-26 12:48:31 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DtCXsDiexA8xZJxBk69+FHi9KXcb7/sfEpvhvNEu2nkUdmFq6PwBQ/JAHCJdwUmHZNQ44QOy3n0Hdx4dPm3z6Q==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"text tag test.rtf", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (text tag test.rtf was not found on the filesystem):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.6ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (92.4ms)
+Started GET "/sig3/new" for ::1 at 2017-01-26 14:36:23 -0800
+Processing by Sig3Controller#new as HTML
+  Rendering sig3/new.html.erb within layouts/application
+  Rendered sig3/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 51ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sig3" for ::1 at 2017-01-26 14:36:47 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A61y4G6W/81NLC6KchA4hGnmisDyfPx3A+WGBX9PVbcU2L0w2mytMcbyicH1BoQiIw1k+XwfJNRfFVEP4w53kw==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"text tag test.rtf", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each_with_index' for "text tag test.rtf":String
+Did you mean?  each_line):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (92.6ms)
+Started POST "/sig3" for ::1 at 2017-01-31 09:49:22 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A61y4G6W/81NLC6KchA4hGnmisDyfPx3A+WGBX9PVbcU2L0w2mytMcbyicH1BoQiIw1k+XwfJNRfFVEP4w53kw==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"text tag test.rtf", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (text tag test.rtf was not found on the filesystem):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (103.5ms)
+Started POST "/sig3" for ::1 at 2017-01-31 09:50:26 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A61y4G6W/81NLC6KchA4hGnmisDyfPx3A+WGBX9PVbcU2L0w2mytMcbyicH1BoQiIw1k+XwfJNRfFVEP4w53kw==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"text tag test.rtf", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (text tag test.rtf was not found on the filesystem):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.4ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.8ms)
+Started POST "/sig3" for ::1 at 2017-01-31 09:50:45 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A61y4G6W/81NLC6KchA4hGnmisDyfPx3A+WGBX9PVbcU2L0w2mytMcbyicH1BoQiIw1k+XwfJNRfFVEP4w53kw==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"text tag test.rtf", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each_with_index' for "text tag test.rtf":String
+Did you mean?  each_line):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.9ms)
+Started GET "/sig4/new" for ::1 at 2017-01-31 09:55:42 -0800
+Processing by Sig4Controller#new as HTML
+  Rendering sig4/new.html.erb within layouts/application
+  Rendered sig4/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 361ms (Views: 355.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sig4" for ::1 at 2017-01-31 09:56:14 -0800
+Processing by Sig4Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Kjfdf8d0q/Ng6tZD7nM1FQplMPylNJ86qfkUvBKFzu07G7+HconCCwLiPWsdjTS0j74nsEB+31ADbsAPCfGl6g==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "subject"=>"This", "message"=>"d", "upload"=>#<ActionDispatch::Http::UploadedFile:0x007f86ed962e88 @tempfile=#<Tempfile:/var/folders/rv/rnrwqp2j3bj4n4y1k12lbfz80000gn/T/RackMultipart20170131-37256-zvp80t.rtf>, @original_filename="text tag test.rtf", @content_type="text/rtf", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"text tag test.rtf\"\r\nContent-Type: text/rtf\r\n">, "signer_name"=>"Niccc", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Non-Embedded Signature Request with Document"}
+  Rendering sig4/sent.html.erb within layouts/application
+  Rendered sig4/sent.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1309ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sig3/new" for ::1 at 2017-01-31 10:10:34 -0800
+Processing by Sig3Controller#new as HTML
+  Rendering sig3/new.html.erb within layouts/application
+  Rendered sig3/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 111ms (Views: 107.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sig3" for ::1 at 2017-01-31 10:11:03 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fw/oOtQc22/2I43cBV57ziKUjreYXA258+hXP5/h3IZlqR7gBH4eIzUHDb/LMExdPv2fIYABKNvmBKiecKL1Fg==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"text tag test.rtf", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (text tag test.rtf was not found on the filesystem):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (13.3ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (105.9ms)
+Started POST "/sig3" for ::1 at 2017-01-31 10:12:39 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8UkjL9ymUf4NZdOERDuDXVTJTW8dgsLYfZ9ciU8ZF4DmPOz/aFwDAoa7dM/DLT/7HiKjVpPhGnshb4uD01g1pA==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"text tag test.rtf", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 746ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::BadRequest (Server responded with code 400
+Request URI: https://api.hellosign.com/v3/signature_request/create_embedded
+Message: {"error":{"error_msg":"Invalid parameter: file","error_name":"bad_request"}}):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (76.4ms)
+Started POST "/sig3" for ::1 at 2017-01-31 10:13:36 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8UkjL9ymUf4NZdOERDuDXVTJTW8dgsLYfZ9ciU8ZF4DmPOz/aFwDAoa7dM/DLT/7HiKjVpPhGnshb4uD01g1pA==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"text tag test.rtf", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (text tag test.rtf was not found on the filesystem):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.5ms)
+Started POST "/sig3" for ::1 at 2017-01-31 10:13:50 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8UkjL9ymUf4NZdOERDuDXVTJTW8dgsLYfZ9ciU8ZF4DmPOz/aFwDAoa7dM/DLT/7HiKjVpPhGnshb4uD01g1pA==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"text tag test.rtf", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each_with_index' for "text tag test.rtf":String
+Did you mean?  each_line):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (83.4ms)
+Started POST "/sig3" for ::1 at 2017-01-31 10:16:42 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8UkjL9ymUf4NZdOERDuDXVTJTW8dgsLYfZ9ciU8ZF4DmPOz/aFwDAoa7dM/DLT/7HiKjVpPhGnshb4uD01g1pA==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"text tag test.rtf", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (text tag test.rtf was not found on the filesystem):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.0ms)
+Started POST "/sig3" for ::1 at 2017-01-31 10:17:36 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8UkjL9ymUf4NZdOERDuDXVTJTW8dgsLYfZ9ciU8ZF4DmPOz/aFwDAoa7dM/DLT/7HiKjVpPhGnshb4uD01g1pA==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"text tag test.rtf", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (text tag test.rtf was not found on the filesystem):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (91.6ms)
+Started GET "/sig3/new" for ::1 at 2017-01-31 10:17:57 -0800
+Processing by Sig3Controller#new as HTML
+  Rendering sig3/new.html.erb within layouts/application
+  Rendered sig3/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 71ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sig3" for ::1 at 2017-01-31 10:18:21 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NaMQZXcxZAmbhnAJk6WvsuCfrtqNKpmy+ngb6by3Qp4i1t+1w8s29RBY10IUsxMUqnRA4wNJQRGmiMzjIPZgug==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"text tag test.rtf", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (text tag test.rtf was not found on the filesystem):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.0ms)
+Started POST "/sig3" for ::1 at 2017-01-31 12:19:54 -0800
+  
+SyntaxError (/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:26: syntax error, unexpected tIDENTIFIER, expecting ']'
+	    files: [File.open params[:upload]],
+	                            ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:26: syntax error, unexpected ']', expecting keyword_end
+	    files: [File.open params[:upload]],
+	                                      ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:28: syntax error, unexpected tLABEL, expecting '='
+	    message: '',
+	            ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:30: syntax error, unexpected tLABEL, expecting '='
+    	hide_text_tags: params[:hide_text_tag],
+    	               ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:31: syntax error, unexpected tLABEL, expecting '='
+	    signers: [
+	            ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:38: syntax error, unexpected ')', expecting keyword_end
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:50: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/sig3_controller.rb:26: syntax error, unexpected tIDENTIFIER, expecting ']'
+app/controllers/sig3_controller.rb:26: syntax error, unexpected ']', expecting keyword_end
+app/controllers/sig3_controller.rb:28: syntax error, unexpected tLABEL, expecting '='
+app/controllers/sig3_controller.rb:30: syntax error, unexpected tLABEL, expecting '='
+app/controllers/sig3_controller.rb:31: syntax error, unexpected tLABEL, expecting '='
+app/controllers/sig3_controller.rb:38: syntax error, unexpected ')', expecting keyword_end
+app/controllers/sig3_controller.rb:50: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.5ms)
+Started POST "/sig3" for ::1 at 2017-01-31 12:20:39 -0800
+  
+SyntaxError (/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:26: syntax error, unexpected ']', expecting ')'
+	    files: params[:upload]],
+	                           ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:28: syntax error, unexpected tLABEL, expecting '='
+	    message: '',
+	            ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:30: syntax error, unexpected tLABEL, expecting '='
+    	hide_text_tags: params[:hide_text_tag],
+    	               ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:31: syntax error, unexpected tLABEL, expecting '='
+	    signers: [
+	            ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:38: syntax error, unexpected ')', expecting keyword_end
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:50: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/sig3_controller.rb:26: syntax error, unexpected ']', expecting ')'
+app/controllers/sig3_controller.rb:28: syntax error, unexpected tLABEL, expecting '='
+app/controllers/sig3_controller.rb:30: syntax error, unexpected tLABEL, expecting '='
+app/controllers/sig3_controller.rb:31: syntax error, unexpected tLABEL, expecting '='
+app/controllers/sig3_controller.rb:38: syntax error, unexpected ')', expecting keyword_end
+app/controllers/sig3_controller.rb:50: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (73.7ms)
+Started POST "/sig3" for ::1 at 2017-01-31 12:21:06 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NaMQZXcxZAmbhnAJk6WvsuCfrtqNKpmy+ngb6by3Qp4i1t+1w8s29RBY10IUsxMUqnRA4wNJQRGmiMzjIPZgug==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"text tag test.rtf", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each_with_index' for "text tag test.rtf":String
+Did you mean?  each_line):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (76.0ms)
+Started POST "/sig3" for ::1 at 2017-01-31 12:21:29 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NaMQZXcxZAmbhnAJk6WvsuCfrtqNKpmy+ngb6by3Qp4i1t+1w8s29RBY10IUsxMUqnRA4wNJQRGmiMzjIPZgug==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"text tag test.rtf", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `each_with_index' for "text tag test.rtf":String
+Did you mean?  each_line):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (84.9ms)
+Started POST "/sig3" for ::1 at 2017-01-31 12:22:29 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NaMQZXcxZAmbhnAJk6WvsuCfrtqNKpmy+ngb6by3Qp4i1t+1w8s29RBY10IUsxMUqnRA4wNJQRGmiMzjIPZgug==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"text tag test.rtf", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (text tag test.rtf was not found on the filesystem):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (84.9ms)
+Started GET "/sig3/new" for ::1 at 2017-01-31 12:25:05 -0800
+  
+SyntaxError (/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:26: unknown regexp options - cbtt
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:26: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+	    files: [/Users/nicboutte/Downloads/text tag test.rtf],
+	                                               ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:26: syntax error, unexpected ']', expecting keyword_end
+	    files: [/Users/nicboutte/Downloads/text tag test.rtf],
+	                                                         ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:28: syntax error, unexpected tLABEL, expecting '='
+	    message: '',
+	            ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:30: syntax error, unexpected tLABEL, expecting '='
+    	hide_text_tags: params[:hide_text_tag],
+    	               ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:31: syntax error, unexpected tLABEL, expecting '='
+	    signers: [
+	            ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:38: syntax error, unexpected ')', expecting keyword_end
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:50: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/sig3_controller.rb:26: unknown regexp options - cbtt
+app/controllers/sig3_controller.rb:26: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/controllers/sig3_controller.rb:26: syntax error, unexpected ']', expecting keyword_end
+app/controllers/sig3_controller.rb:28: syntax error, unexpected tLABEL, expecting '='
+app/controllers/sig3_controller.rb:30: syntax error, unexpected tLABEL, expecting '='
+app/controllers/sig3_controller.rb:31: syntax error, unexpected tLABEL, expecting '='
+app/controllers/sig3_controller.rb:38: syntax error, unexpected ')', expecting keyword_end
+app/controllers/sig3_controller.rb:50: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (89.3ms)
+Started GET "/sig3/new" for ::1 at 2017-01-31 12:25:33 -0800
+  
+SyntaxError (/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:26: unknown regexp options - cbtt
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:26: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+	    files: /Users/nicboutte/Downloads/text tag test.rtf,
+	                                              ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:38: syntax error, unexpected ')', expecting keyword_end
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:50: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/sig3_controller.rb:26: unknown regexp options - cbtt
+app/controllers/sig3_controller.rb:26: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/controllers/sig3_controller.rb:38: syntax error, unexpected ')', expecting keyword_end
+app/controllers/sig3_controller.rb:50: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (80.5ms)
+Started GET "/sig3/new" for ::1 at 2017-01-31 12:26:21 -0800
+  
+SyntaxError (/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:26: unknown regexp options - cbtt
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:26: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+	     :files => [/Users/nicboutte/Downloads/text tag test.rtf],
+	                                                   ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:26: syntax error, unexpected ']', expecting keyword_end
+	     :files => [/Users/nicboutte/Downloads/text tag test.rtf],
+	                                                             ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:28: syntax error, unexpected tLABEL, expecting '='
+	    message: '',
+	            ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:30: syntax error, unexpected tLABEL, expecting '='
+    	hide_text_tags: params[:hide_text_tag],
+    	               ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:31: syntax error, unexpected tLABEL, expecting '='
+	    signers: [
+	            ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:38: syntax error, unexpected ')', expecting keyword_end
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:50: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/sig3_controller.rb:26: unknown regexp options - cbtt
+app/controllers/sig3_controller.rb:26: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/controllers/sig3_controller.rb:26: syntax error, unexpected ']', expecting keyword_end
+app/controllers/sig3_controller.rb:28: syntax error, unexpected tLABEL, expecting '='
+app/controllers/sig3_controller.rb:30: syntax error, unexpected tLABEL, expecting '='
+app/controllers/sig3_controller.rb:31: syntax error, unexpected tLABEL, expecting '='
+app/controllers/sig3_controller.rb:38: syntax error, unexpected ')', expecting keyword_end
+app/controllers/sig3_controller.rb:50: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (81.3ms)
+Started GET "/sig3/new" for ::1 at 2017-01-31 12:26:38 -0800
+  
+SyntaxError (/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:26: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+	     :files => [text tag test.rtf],
+	                        ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:26: syntax error, unexpected ']', expecting keyword_end
+	     :files => [text tag test.rtf],
+	                                  ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:28: syntax error, unexpected tLABEL, expecting '='
+	    message: '',
+	            ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:30: syntax error, unexpected tLABEL, expecting '='
+    	hide_text_tags: params[:hide_text_tag],
+    	               ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:31: syntax error, unexpected tLABEL, expecting '='
+	    signers: [
+	            ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:38: syntax error, unexpected ')', expecting keyword_end
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:50: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/sig3_controller.rb:26: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/controllers/sig3_controller.rb:26: syntax error, unexpected ']', expecting keyword_end
+app/controllers/sig3_controller.rb:28: syntax error, unexpected tLABEL, expecting '='
+app/controllers/sig3_controller.rb:30: syntax error, unexpected tLABEL, expecting '='
+app/controllers/sig3_controller.rb:31: syntax error, unexpected tLABEL, expecting '='
+app/controllers/sig3_controller.rb:38: syntax error, unexpected ')', expecting keyword_end
+app/controllers/sig3_controller.rb:50: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (82.8ms)
+Started GET "/sig3/new" for ::1 at 2017-01-31 12:27:42 -0800
+Processing by Sig3Controller#new as HTML
+  Rendering sig3/new.html.erb within layouts/application
+  Rendered sig3/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 44ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sig3" for ::1 at 2017-01-31 12:40:13 -0800
+  
+SyntaxError (/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:26: syntax error, unexpected ',', expecting =>
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:28: syntax error, unexpected tLABEL, expecting '='
+	    message: '',
+	            ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:30: syntax error, unexpected tLABEL, expecting '='
+    	hide_text_tags: params[:hide_text_tag],
+    	               ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:31: syntax error, unexpected tLABEL, expecting '='
+	    signers: [
+	            ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:38: syntax error, unexpected ')', expecting keyword_end
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:50: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/sig3_controller.rb:26: syntax error, unexpected ',', expecting =>
+app/controllers/sig3_controller.rb:28: syntax error, unexpected tLABEL, expecting '='
+app/controllers/sig3_controller.rb:30: syntax error, unexpected tLABEL, expecting '='
+app/controllers/sig3_controller.rb:31: syntax error, unexpected tLABEL, expecting '='
+app/controllers/sig3_controller.rb:38: syntax error, unexpected ')', expecting keyword_end
+app/controllers/sig3_controller.rb:50: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.4ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.1ms)
+Started POST "/sig3" for ::1 at 2017-01-31 12:40:55 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IWBN+iuv6tpHsyFoe/CKQnkdhLlkGra6MdkLERbiajw2FYIqn1W4JsxthiP85jbkM/ZqgOp5bhltKdwbiqNIGA==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"text tag test.rtf", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 910ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::BadRequest (Server responded with code 400
+Request URI: https://api.hellosign.com/v3/signature_request/create_embedded
+Message: {"error":{"error_msg":"Invalid parameter: f","error_name":"bad_request"}}):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.8ms)
+Started POST "/sig3" for ::1 at 2017-01-31 12:41:36 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IWBN+iuv6tpHsyFoe/CKQnkdhLlkGra6MdkLERbiajw2FYIqn1W4JsxthiP85jbkM/ZqgOp5bhltKdwbiqNIGA==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"text tag test.rtf", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 467ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::BadRequest (Server responded with code 400
+Request URI: https://api.hellosign.com/v3/signature_request/create_embedded
+Message: {"error":{"error_msg":"Invalid parameter: file","error_name":"bad_request"}}):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (93.2ms)
+Started POST "/sig3" for ::1 at 2017-01-31 12:41:48 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IWBN+iuv6tpHsyFoe/CKQnkdhLlkGra6MdkLERbiajw2FYIqn1W4JsxthiP85jbkM/ZqgOp5bhltKdwbiqNIGA==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"text tag test.rtf", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 472ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::BadRequest (Server responded with code 400
+Request URI: https://api.hellosign.com/v3/signature_request/create_embedded
+Message: {"error":{"error_msg":"Invalid parameter: f","error_name":"bad_request"}}):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (93.9ms)
+Started POST "/sig3" for ::1 at 2017-01-31 12:42:11 -0800
+  
+SyntaxError (/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:26: syntax error, unexpected ':', expecting =>
+	    file[0]: [params[:upload]],
+	            ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:26: syntax error, unexpected ',', expecting keyword_end
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:28: syntax error, unexpected tLABEL, expecting '='
+	    message: '',
+	            ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:30: syntax error, unexpected tLABEL, expecting '='
+    	hide_text_tags: params[:hide_text_tag],
+    	               ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:31: syntax error, unexpected tLABEL, expecting '='
+	    signers: [
+	            ^
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:38: syntax error, unexpected ')', expecting keyword_end
+/Users/nicboutte/hs_Ruby/app/controllers/sig3_controller.rb:50: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/sig3_controller.rb:26: syntax error, unexpected ':', expecting =>
+app/controllers/sig3_controller.rb:26: syntax error, unexpected ',', expecting keyword_end
+app/controllers/sig3_controller.rb:28: syntax error, unexpected tLABEL, expecting '='
+app/controllers/sig3_controller.rb:30: syntax error, unexpected tLABEL, expecting '='
+app/controllers/sig3_controller.rb:31: syntax error, unexpected tLABEL, expecting '='
+app/controllers/sig3_controller.rb:38: syntax error, unexpected ')', expecting keyword_end
+app/controllers/sig3_controller.rb:50: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (89.7ms)
+Started POST "/sig3" for ::1 at 2017-01-31 12:43:08 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IWBN+iuv6tpHsyFoe/CKQnkdhLlkGra6MdkLERbiajw2FYIqn1W4JsxthiP85jbkM/ZqgOp5bhltKdwbiqNIGA==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"text tag test.rtf", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (text tag test.rtf was not found on the filesystem):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (73.9ms)
+Started POST "/sig3" for ::1 at 2017-01-31 12:45:32 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IWBN+iuv6tpHsyFoe/CKQnkdhLlkGra6MdkLERbiajw2FYIqn1W4JsxthiP85jbkM/ZqgOp5bhltKdwbiqNIGA==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"terminal.png", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (terminal.png was not found on the filesystem):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.4ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.3ms)
+Started POST "/sig3" for ::1 at 2017-01-31 12:51:15 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IWBN+iuv6tpHsyFoe/CKQnkdhLlkGra6MdkLERbiajw2FYIqn1W4JsxthiP85jbkM/ZqgOp5bhltKdwbiqNIGA==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"terminal.png", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (NDA.pdf was not found on the filesystem):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (79.3ms)
+Started POST "/sig3" for ::1 at 2017-01-31 13:09:08 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IWBN+iuv6tpHsyFoe/CKQnkdhLlkGra6MdkLERbiajw2FYIqn1W4JsxthiP85jbkM/ZqgOp5bhltKdwbiqNIGA==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"terminal.png", "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (terminal.png was not found on the filesystem):
+  
+app/controllers/sig3_controller.rb:23:in `create_embedded_signature_request'
+app/controllers/sig3_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (78.7ms)
+Started GET "/sig3/new" for ::1 at 2017-01-31 13:09:55 -0800
+Processing by Sig3Controller#new as HTML
+  Rendering sig3/new.html.erb within layouts/application
+  Rendered sig3/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 66ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sig3" for ::1 at 2017-01-31 13:10:24 -0800
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QcQnDkfxzfqosK25SOVpPqpukkg377psNqmJP5BVWudWseje8wufBiNuCvLP89WY4IV8cbmMYs9qWV41DBR4ww==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>#<ActionDispatch::Http::UploadedFile:0x007f86ecc84e78 @tempfile=#<Tempfile:/var/folders/rv/rnrwqp2j3bj4n4y1k12lbfz80000gn/T/RackMultipart20170131-37256-1g1xi7x.rtf>, @original_filename="text tag test.rtf", @content_type="text/rtf", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"text tag test.rtf\"\r\nContent-Type: text/rtf\r\n">, "signer_email"=>"nicholas.boutte+224@hellosign.com", "use_text_tag"=>"1", "hide_text_tag"=>"1", "commit"=>"Create Embedded Signature Request with Document"}
+  Rendering sig3/embedded_signature.html.erb within layouts/application
+  Rendered sig3/embedded_signature.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1431ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sig3" for ::1 at 2017-01-31 15:44:34 -0800
+  
+ActionController::RoutingError (No route matches [GET] "/sig3"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered collection of /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [23 times] (22.4ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (42.8ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (177.4ms)
+Started GET "/sig3/new" for ::1 at 2017-01-31 15:44:40 -0800
+Processing by Sig3Controller#new as HTML
+  Rendering sig3/new.html.erb within layouts/application
+  Rendered sig3/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 64ms (Views: 59.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reminder/new" for ::1 at 2017-01-31 15:44:45 -0800
+Processing by ReminderController#new as HTML
+  Rendering reminder/new.html.erb within layouts/application
+  Rendered reminder/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 45ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reminder/new" for ::1 at 2017-01-31 15:45:58 -0800
+Processing by ReminderController#new as HTML
+  Rendering reminder/new.html.erb within layouts/application
+  Rendered reminder/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 57ms (Views: 54.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reminder/new" for ::1 at 2017-01-31 15:46:15 -0800
+Processing by ReminderController#new as HTML
+  Rendering reminder/new.html.erb within layouts/application
+  Rendered reminder/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 34ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/reminder" for ::1 at 2017-01-31 15:47:24 -0800
+Processing by ReminderController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"axoOW+SmdStvJR6vyjl8RZbDhsTElqIqHV73NxM/dxl8b8GLUFwn1+T7ueRNL8Dj3Cho/Ur1eolBriA9j35VPQ==", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "sig_request_id"=>"1d01678cb765ad62503ff923769ac8d8967cd395", "signer_email"=>"nicholas.boutte@hellosign.com", "name"=>"NIccc", "commit"=>"Send Signature Request Reminder"}
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `remind_signature_request' for #<ReminderController:0x007f86f4c5d438>
+Did you mean?  reminder_index_url):
+  
+app/controllers/reminder_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (142.4ms)
+Started POST "/reminder" for ::1 at 2017-01-31 15:52:09 -0800
+Processing by ReminderController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"axoOW+SmdStvJR6vyjl8RZbDhsTElqIqHV73NxM/dxl8b8GLUFwn1+T7ueRNL8Dj3Cho/Ur1eolBriA9j35VPQ==", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "sig_request_id"=>"1d01678cb765ad62503ff923769ac8d8967cd395", "signer_email"=>"nicholas.boutte@hellosign.com", "name"=>"NIccc", "commit"=>"Send Signature Request Reminder"}
+  Rendering reminder/sent.html.erb within layouts/application
+  Rendered reminder/sent.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 738ms (Views: 66.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sig4/new" for ::1 at 2017-02-01 14:35:01 -0800
+Processing by Sig4Controller#new as HTML
+  Rendering sig4/new.html.erb within layouts/application
+  Rendered sig4/new.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 238ms (Views: 225.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signatures/new" for ::1 at 2017-02-03 09:24:25 -0800
+Processing by SignaturesController#new as HTML
+  Rendering signatures/new.html.erb within layouts/application
+  Rendered signatures/new.html.erb within layouts/application (29.8ms)
+Completed 200 OK in 413ms (Views: 380.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signatures" for ::1 at 2017-02-03 09:24:49 -0800
+Processing by SignaturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RZhQuiErNsTlCZZawSqM0gRcQwxCBxvpDLSghUtb3KT7Zkfn9nIK0hWrPLmglv9LnnGbmt+/cDqhfPZeBkOvAw==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "template_id"=>"85eb6d1cdbca7780f9e875697c36bc762e0fec67", "subject"=>"This", "signer_role"=>"1", "commit"=>"Create Embedded Signature Request with Template"}
+  Rendering signatures/embedded_signature.html.erb within layouts/application
+  Rendered signatures/embedded_signature.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 1703ms (Views: 119.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signatures/new" for ::1 at 2017-02-06 12:31:05 -0800
+Processing by SignaturesController#new as HTML
+  Rendering signatures/new.html.erb within layouts/application
+  Rendered signatures/new.html.erb within layouts/application (153.1ms)
+Completed 200 OK in 1358ms (Views: 1243.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signatures" for ::1 at 2017-02-06 12:31:23 -0800
+Processing by SignaturesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CKakUbWj5HftKZCjYm/7eoRgObNCNHxLQmO60ywf8vS2WLMMYvrYYR2LOkAD04jjHk3hJd+MF5jvq+wIYQeBUw==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "template_id"=>"85eb6d1cdbca7780f9e875697c36bc762e0fec67", "subject"=>"d", "signer_role"=>"1", "commit"=>"Create Embedded Signature Request with Template"}
+  Rendering signatures/embedded_signature.html.erb within layouts/application
+  Rendered signatures/embedded_signature.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 2379ms (Views: 459.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signatures/new" for ::1 at 2017-02-06 17:45:39 -0800
+Processing by SignaturesController#new as HTML
+  Rendering signatures/new.html.erb within layouts/application
+  Rendered signatures/new.html.erb within layouts/application (90.2ms)
+Completed 200 OK in 717ms (Views: 682.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sig4/new" for ::1 at 2017-02-06 17:45:58 -0800
+Processing by Sig4Controller#new as HTML
+  Rendering sig4/new.html.erb within layouts/application
+  Rendered sig4/new.html.erb within layouts/application (69.1ms)
+Completed 200 OK in 408ms (Views: 392.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-22 15:42:37 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SignaturesController#home as HTML
+  Rendering signatures/home.html.erb within layouts/application
+  Rendered signatures/home.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 1181ms (Views: 1166.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/template/new" for ::1 at 2017-02-22 15:42:47 -0800
+Processing by TemplateController#new as HTML
+  Rendering template/new.html.erb within layouts/application
+  Rendered template/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 94ms (Views: 68.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/template" for ::1 at 2017-02-22 15:43:33 -0800
+Processing by TemplateController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"laFY5C6FB3ULSoU7eZnrDNugRGzxxkRCw/SmZj0+H0PyoCSVNGYg6SYSj3ocMdHlcAzLTa9pnOXdjIuThbcrBg==", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "title"=>"f", "subject"=>"This", "message"=>"ff", "signer_role"=>"1", "signer_order"=>"", "signer_role2"=>"", "signer_order2"=>"", "signer_role3"=>"", "signer_order3"=>"", "signer_role4"=>"", "signer_order4"=>"", "signer_role5"=>"", "signer_order5"=>"", "commit"=>"Create Embedded Template"}
+  Rendering template/embedded_template.html.erb within layouts/application
+  Rendered template/embedded_template.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 2372ms (Views: 80.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/template/new" for ::1 at 2017-02-22 15:45:32 -0800
+Processing by TemplateController#new as HTML
+  Rendering template/new.html.erb within layouts/application
+  Rendered template/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 59ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/template" for ::1 at 2017-02-22 15:46:32 -0800
+Processing by TemplateController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OaMIZyyQ7DQp1IhYl4MHJ7JQqrAyGlK2kHr1I0K/sMxeonQWNnPLqASMghnyKz3OGfwlkWy1ihGOAtjW+jaEiQ==", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>#<ActionDispatch::Http::UploadedFile:0x007fdc798930c0 @tempfile=#<Tempfile:/var/folders/rv/rnrwqp2j3bj4n4y1k12lbfz80000gn/T/RackMultipart20170222-60930-x4uuaa.png>, @original_filename="callback.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"callback.png\"\r\nContent-Type: image/png\r\n">, "title"=>"f", "subject"=>"This", "message"=>"ff", "signer_role"=>"1", "signer_order"=>"", "signer_role2"=>"", "signer_order2"=>"", "signer_role3"=>"", "signer_order3"=>"", "signer_role4"=>"", "signer_order4"=>"", "signer_role5"=>"", "signer_order5"=>"", "commit"=>"Create Embedded Template"}
+  Rendering template/embedded_template.html.erb within layouts/application
+  Rendered template/embedded_template.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1342ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/template/new" for ::1 at 2017-02-22 15:47:08 -0800
+Processing by TemplateController#new as HTML
+  Rendering template/new.html.erb within layouts/application
+  Rendered template/new.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 77ms (Views: 74.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/template/new" for ::1 at 2017-02-22 15:47:29 -0800
+Processing by TemplateController#new as HTML
+  Rendering template/new.html.erb within layouts/application
+  Rendered template/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 66ms (Views: 64.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/template/new" for ::1 at 2017-02-22 15:47:50 -0800
+Processing by TemplateController#new as HTML
+  Rendering template/new.html.erb within layouts/application
+  Rendered template/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 55ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/template/new" for ::1 at 2017-02-22 15:47:57 -0800
+Processing by TemplateController#new as HTML
+  Rendering template/new.html.erb within layouts/application
+  Rendered template/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 46ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-03-01 12:38:34 -0800
+Started GET "/" for ::1 at 2017-03-01 12:38:34 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SignaturesController#home as HTML
+Processing by SignaturesController#home as HTML
+  Rendering signatures/home.html.erb within layouts/application
+  Rendering signatures/home.html.erb within layouts/application
+  Rendered signatures/home.html.erb within layouts/application (11.4ms)
+  Rendered signatures/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1105ms (Views: 1083.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1057ms (Views: 1053.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reminder/new" for ::1 at 2017-03-01 12:38:46 -0800
+Processing by ReminderController#new as HTML
+  Rendering reminder/new.html.erb within layouts/application
+  Rendered reminder/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 42ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reminder/new" for ::1 at 2017-03-01 12:39:20 -0800
+Processing by ReminderController#new as HTML
+  Rendering reminder/new.html.erb within layouts/application
+  Rendered reminder/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 39ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reminder/new" for ::1 at 2017-03-01 12:42:10 -0800
+Processing by ReminderController#new as HTML
+  Rendering reminder/new.html.erb within layouts/application
+  Rendered reminder/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 58ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reminder/new" for ::1 at 2017-03-01 12:42:23 -0800
+Processing by ReminderController#new as HTML
+  Rendering reminder/new.html.erb within layouts/application
+  Rendered reminder/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reminder" for ::1 at 2017-03-16 09:21:19 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActionController::RoutingError (No route matches [GET] "/reminder"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered collection of /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [23 times] (8.7ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (26.7ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.3ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (147.3ms)
+Started GET "/" for ::1 at 2017-03-16 09:21:24 -0700
+Processing by SignaturesController#home as HTML
+  Rendering signatures/home.html.erb within layouts/application
+  Rendered signatures/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 547ms (Views: 545.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/sig3/new" for ::1 at 2017-03-16 09:21:28 -0700
+Processing by Sig3Controller#new as HTML
+  Rendering sig3/new.html.erb within layouts/application
+  Rendered sig3/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 50ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sig3" for ::1 at 2017-03-16 09:21:49 -0700
+Processing by Sig3Controller#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VP08l3zhMCtd+K7kOnhNDW/K4yV05n3lxLvuqtZ/KQt3qmc8ZZjmdw+nPM9/ypOQIM246evlUU8fMgLSI16pTw==", "name"=>"Nic", "email"=>"nicholas.boutte@hellosign.com", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>#<ActionDispatch::Http::UploadedFile:0x007f87443bf538 @tempfile=#<Tempfile:/var/folders/rv/rnrwqp2j3bj4n4y1k12lbfz80000gn/T/RackMultipart20170316-13369-15h0kso.png>, @original_filename="subway.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"subway.png\"\r\nContent-Type: image/png\r\n">, "signer_email"=>"nicholas.boutte+224@hellosign.com", "commit"=>"Create Embedded Signature Request with Document"}
+  Rendering sig3/embedded_signature.html.erb within layouts/application
+  Rendered sig3/embedded_signature.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2372ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/requesting/new" for ::1 at 2017-03-16 09:22:17 -0700
+Processing by RequestingController#new as HTML
+  Rendering requesting/new.html.erb within layouts/application
+  Rendered requesting/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 44ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/requesting" for ::1 at 2017-03-16 09:22:42 -0700
+Processing by RequestingController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tJ/F2bn5fE4eiiHMx1NK3x8VqtsvEeRFKqpPkNs0nWHf+NcVch+0e4CJ1D9JUd4Li4yy2vKm7XyvalXujGSeKg==", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>"d1f5dd7bd86f83f18fb6c0bb7fa34280.jpg", "subject"=>"fkdhkd", "requester_email_address"=>"nicholas.boutte@hellosign.com", "commit"=>"Embedded Requesting with Document for Non-Embedded Signing"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+HelloSign::Error::FileNotFound (d1f5dd7bd86f83f18fb6c0bb7fa34280.jpg was not found on the filesystem):
+  
+app/controllers/requesting_controller.rb:22:in `create_embedded_unclaimed_draft'
+app/controllers/requesting_controller.rb:13:in `create'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.7ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.6ms)
+Started GET "/requesting/new" for ::1 at 2017-03-16 09:24:11 -0700
+Processing by RequestingController#new as HTML
+  Rendering requesting/new.html.erb within layouts/application
+  Rendered requesting/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 53ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/requesting" for ::1 at 2017-03-16 09:24:25 -0700
+Processing by RequestingController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5RS2flP6OFqQI1GUROhJDVZ0nEBKH79y8yc3fULaOrsfEkhzvHuNJt9QS0crluZz3CyFAPkeUgh62eUvubrRCA==", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>#<ActionDispatch::Http::UploadedFile:0x007f87426c3858 @tempfile=#<Tempfile:/var/folders/rv/rnrwqp2j3bj4n4y1k12lbfz80000gn/T/RackMultipart20170316-13369-zwgmks.jpg>, @original_filename="d1f5dd7bd86f83f18fb6c0bb7fa34280.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"d1f5dd7bd86f83f18fb6c0bb7fa34280.jpg\"\r\nContent-Type: image/jpeg\r\n">, "subject"=>"vv", "requester_email_address"=>"nicholas.boutte@hellosign.com", "commit"=>"Embedded Requesting with Document for Non-Embedded Signing"}
+  Rendering requesting/embedded_request.html.erb within layouts/application
+  Rendered requesting/embedded_request.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1185ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-03-24 16:02:45 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SignaturesController#home as HTML
+  Rendering signatures/home.html.erb within layouts/application
+  Rendered signatures/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 783ms (Views: 768.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-03-24 16:02:50 -0700
+Processing by SignaturesController#home as HTML
+  Rendering signatures/home.html.erb within layouts/application
+  Rendered signatures/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 92ms (Views: 89.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/template/new" for ::1 at 2017-03-24 16:02:55 -0700
+Processing by TemplateController#new as HTML
+  Rendering template/new.html.erb within layouts/application
+  Rendered template/new.html.erb within layouts/application (24.3ms)
+Completed 200 OK in 164ms (Views: 154.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/template" for ::1 at 2017-03-24 16:03:31 -0700
+Processing by TemplateController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lS4/c6HNkqKqccY5uipk8335NSzXJukZngyuww1sRmifUIXgX8JJ59UmKXv5A4g0bJqJjdgGfkK7zo/7H6JR1w==", "api_key"=>"d38589f665000363cd7899ada27d89600f988e3196151b4f5729d2fb03219174", "client_id"=>"44adc0a3f5f6b105ca6386e164d1e87a", "upload"=>#<ActionDispatch::Http::UploadedFile:0x007fbb1d12ee10 @tempfile=#<Tempfile:/var/folders/rv/rnrwqp2j3bj4n4y1k12lbfz80000gn/T/RackMultipart20170324-51492-794a95.jpg>, @original_filename="spongebob-01.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"upload\"; filename=\"spongebob-01.jpg\"\r\nContent-Type: image/jpeg\r\n">, "title"=>"test", "subject"=>"tester", "message"=>"t", "signer_role"=>"test", "signer_order"=>"", "signer_role2"=>"", "signer_order2"=>"", "signer_role3"=>"", "signer_order3"=>"", "signer_role4"=>"", "signer_order4"=>"", "signer_role5"=>"", "signer_order5"=>"", "commit"=>"Create Embedded Template"}
+  Rendering template/embedded_template.html.erb within layouts/application
+  Rendered template/embedded_template.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 2021ms (Views: 52.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/template" for ::1 at 2017-03-24 17:01:17 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/template"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (15.2ms)
+  Rendered collection of /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [23 times] (54.7ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (83.6ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.7ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (545.5ms)
+Started GET "/requesting" for ::1 at 2017-03-28 09:38:06 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/requesting"):
+  
+actionpack (5.0.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0.1) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.0) lib/puma/configuration.rb:225:in `call'
+puma (3.6.0) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.0) lib/puma/server.rb:415:in `process_client'
+puma (3.6.0) lib/puma/server.rb:275:in `block in run'
+puma (3.6.0) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.1ms)
+  Rendered collection of /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [23 times] (164.9ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.9ms)
+  Rendering /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.0ms)
+  Rendered /Users/nicboutte/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (5448.9ms)

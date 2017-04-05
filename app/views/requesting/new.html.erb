@@ -1,5 +1,5 @@
 <body>
-	<%= form_tag requesting_index_path, method: :post do %>
+	<%= form_tag(requesting_index_path, :method=>'post', :multipart => true) do %>
 	  <%= label_tag 'API Key' %>
 	  <%= text_field_tag :api_key %>
 	  <%= label_tag 'Client ID' %>

@@ -1,10 +1,12 @@
 <body>
-	<%= form_tag template_index_path, method: :post do %>
+	<%= form_tag(template_index_path, :method=>'post', :multipart => true) do %>
 	  <%= label_tag 'API Key' %>
 	  <%= text_field_tag :api_key %>
 	   <%= label_tag 'Client ID' %>
 	  <%= text_field_tag :client_id %>
-	  <%= label_tag 'Template Title' %>
+	  <%= label_tag 'File' %>
+      <%= file_field_tag :upload %> </br>
+      <%= label_tag 'Template Title' %>
 	  <%= text_field_tag :title %>
 	  <%= label_tag 'Subject' %>
 	  <%= text_field_tag :subject %>

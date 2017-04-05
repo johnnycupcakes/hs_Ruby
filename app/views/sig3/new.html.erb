@@ -1,17 +1,21 @@
 <body>
-	<%= form_tag sig3_index_path, method: :post do %>
+	<%= form_tag(sig3_index_path, :method=>'post', :multipart => true) do %>
 	  <%= label_tag 'Name' %>
 	  <%= text_field_tag :name %>
 	  <%= label_tag 'Email' %>
 	  <%= text_field_tag :email %>
 	  <%= label_tag 'API Key' %>
 	  <%= text_field_tag :api_key %>
-	   <%= label_tag 'Client ID' %>
+	  <%= label_tag 'Client ID' %>
 	  <%= text_field_tag :client_id %>
 	  <%= label_tag 'File' %>
       <%= file_field_tag :upload %>
 	  <%= label_tag 'Signer\'/s email' %>
 	  <%= text_field_tag :signer_email %>
+	  <%= label_tag 'Use Text Tags' %>
+	  <%= check_box_tag :use_text_tag %>
+	  <%= label_tag 'Hide Text Tags' %>
+	  <%= check_box_tag :hide_text_tag %> <br>
 	  <%= submit_tag 'Create Embedded Signature Request with Document' %>
 	<% end %>
 	</body>

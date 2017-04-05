@@ -1,0 +1,15 @@
+<body>
+	<%= form_tag reminder_index_path, method: :post do %>
+	  <%= label_tag 'Your Email' %>
+	  <%= text_field_tag :email %>
+	  <%= label_tag 'Your API Key' %>
+	  <%= text_field_tag :api_key %>
+	  <%= label_tag 'Signature Request ID' %>
+	  <%= text_field_tag :sig_request_id %>
+	  <%= label_tag 'Signer\'/s email' %>
+	  <%= text_field_tag :signer_email %>
+	  <%= label_tag 'Signer\'/s Name' %>
+	  <%= text_field_tag :name %>
+	  <%= submit_tag 'Send Signature Request Reminder' %>
+	<% end %>
+	</body>

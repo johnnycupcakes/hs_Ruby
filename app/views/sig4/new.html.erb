@@ -16,6 +16,10 @@
 	  <%= text_field_tag :signer_name %>
 	  <%= label_tag 'Signer Email' %>
 	  <%= text_field_tag :signer_email %>
+	  <%= label_tag 'Use Text Tags' %>
+	  <%= check_box_tag :use_text_tag %>
+	  <%= label_tag 'Hide Text Tags' %>
+	  <%= check_box_tag :hide_text_tag %> <br>
 	  <%= submit_tag 'Create Non-Embedded Signature Request with Document' %>
 	<% end %>
 	</body>

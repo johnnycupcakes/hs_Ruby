@@ -22,7 +22,7 @@ private
 	response = client.create_embedded_template_draft(
     test_mode: 1,
     client_id: params[:client_id],
-    files: ['/Users/nicboutte/downloads/spongebob-01.jpg'],
+    files: [params[:upload]],
     title: params[:title],
     subject: params[:subject],
     message: params[:message],

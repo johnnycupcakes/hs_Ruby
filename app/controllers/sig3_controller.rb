@@ -21,11 +21,13 @@ private
 	def create_embedded_signature_request(opts = {})
   client = HelloSign::Client.new :api_key => params[:api_key]
 client.create_embedded_signature_request(
-	    test_mode: 1, #Set this to 1 for 'true'. 'false' is 0
+	    test_mode: 1,
 	    client_id: params[:client_id],
+	    files: [params[:upload]],
 	    subject: params[:subject],
 	    message: '',
-	    files: [params[:upload]],
+	    use_text_tags: params[:use_text_tag],
+    	hide_text_tags: params[:hide_text_tag],
 	    signers: [
 	      {
             :email_address => params[:signer_email],

@@ -23,6 +23,8 @@ private
     files: [params[:upload]],
     subject: params[:subject],
     message: params[:message],
+    use_text_tags: params[:use_text_tag],
+    hide_text_tags: params[:hide_text_tag],
     signers: [
         {
             :email_address => params[:signer_email],
