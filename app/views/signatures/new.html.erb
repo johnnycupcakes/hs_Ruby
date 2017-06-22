@@ -6,14 +6,17 @@
 	  <%= text_field_tag :email %>
 	  <%= label_tag 'API Key' %>
 	  <%= text_field_tag :api_key %>
-	   <%= label_tag 'Client ID' %>
+	  <%= label_tag 'Client ID' %>
 	  <%= text_field_tag :client_id %>
 	  <%= label_tag 'Template ID' %>
 	  <%= text_field_tag :template_id %>
-	   <%= label_tag 'Request Subject' %>
+	  <%= label_tag 'Request Subject' %>
 	  <%= text_field_tag :subject %>
 	  <%= label_tag 'Signer Role' %>
 	  <%= text_field_tag :signer_role %>
+	  <%= label_tag'Allow Decline?' %>
+	  <%= check_box_tag :decline %>
+	  <br>
 	  <%= submit_tag 'Create Embedded Signature Request with Template' %>
 	<% end %>
 	</body>

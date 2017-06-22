@@ -11,8 +11,11 @@
     'uxVersion': 2,
     'redirectUrl': "http://www.hellosign.com/",
     'messageListener': function(eventData) {
-      
+    if (eventData.event == HelloSign.EVENT_SIGNED) {
+        // Go to a signature confirmation page
+        console.log (eventData["signature_id"] + " helllllloooooo");
     }
+}
   });
 // ]]>
 </script>

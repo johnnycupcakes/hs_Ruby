@@ -1,0 +1,52 @@
+<h1> Common Schema Terms: </h1>
+
+id: The identification number used to idnetify your schema.
+type: The schema type you are using (view, form, validation).
+version: The specific Helloworks version that you are using.
+macros: Regex expressions that are going to be reused throught your view.
+
+<h1> View Schema Specific Terms: </h1>
+forms: Individual forms that make up the view.
+mapping: Cross-form mapping that allows you to pass data from one form to another
+
+<h1> Form Schema Specific Terms: </h1>
+settings: Form settings, currently a bolean value for "Preview" is the only allowed setting.
+field types: 
+- Paragraph: A paragraph of text
+- TextInput: Text input field
+- Digits: Field used for numbers
+- Date: Date input field
+- SelectList: Selection out of a list of options
+- Select Tree: Selection tree where the first choice can lead to other choices
+- SelectGroup: Selection from a group of options
+- Toggle: Boolean-type radio buttons
+- Checkbox: Boolean-type checkbox
+- Signature: Signature input field
+- Initials: Initials input field
+- Group: Used to group children elements together (e.g. address field)
+- List: List of children elements
+
+<h1> Validation Schema Specific Terms: </h1>
+
+<h1> Functions that can be used in Expressions </h1>
+val(fieldId) Returns the value of the given field
+val(entityType) == 'business'
+length(val) Returns the length of the given string
+length(val(entityType)) > 0
+date(dateTime, format) Format defaults to "%B %d %y" and dateTime to 'now' if not provided.
+<h2> String operations </h2>
+concat(string1, string2) Concatenate two string values.
+concat(val(field1), val(field1))
+<h2> Numeric Operations </h2>
+add(num1, num2) sub(num1, num2) multiply(num1, num2) divide(num1, num2)
+E.g. add(val(field1), val(field2)) == 10
+<h2> Logical operators </h2>
+Just like in JavaScript, you can use those: ==, !=, >, >=, <, <=, &&, ||
+Additionally, the 'if' keyword is also available: if (cond, do_if_true, do_if_false)
+if (val(field1) == 'A', "label1", "label2")
+<h2> Format Validators </h2>
+range(min, max)
+digits(count) OR digits(minCount, maxCount)
+email(value)
+phone(value)
+regex(pattern)

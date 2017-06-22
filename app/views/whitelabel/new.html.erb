@@ -1,0 +1,18 @@
+<body>
+	<%= form_tag(whitelabel_index_path, :method=>'post', :multipart => true) do %>
+	  <%= label_tag 'API Key' %>
+	  <%= text_field_tag :api_key %>
+	  <%= label_tag 'App name' %>
+	  <%= text_field_tag :name
+	  <%= label_tag 'Domain this@example.com' %>
+	  <%= text_field_tag :domain %>
+	  <%= label_tag 'Primary Button Color (6 character Hex value ONLY, Format: #******)' %>
+	  <%= text_field_tag :primary %>
+	  <%= label_tag 'Secondary Button Color (6 character Hex value ONLY, Format: #******)' %>
+	  <%= text_field_tag :secondary %>
+	  <%= label_tag 'Company Logo' %>
+      <%= file_field_tag :upload %>
+	   <br>
+	  <%= submit_tag 'Update API App' %>
+	<% end %>
+	</body>

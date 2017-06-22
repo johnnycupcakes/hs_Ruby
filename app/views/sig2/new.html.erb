@@ -18,6 +18,9 @@
 	  <%= text_field_tag :signer_email %>
 	  <%= label_tag 'Signer Role' %>
 	  <%= text_field_tag :signer_role %>
+	  <%= label_tag'Allow Decline?' %>
+	  <%= check_box_tag :decline %>
+	  <br>
 	  <%= submit_tag 'Create Non-Embedded Signature Request with Template' %>
 	<% end %>
 	</body>
