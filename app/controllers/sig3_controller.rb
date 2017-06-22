@@ -5,8 +5,10 @@ class Sig3Controller < ApplicationController
 	def callbacks
     data = JSON.parse(params["json"], symbolize_names: true)
     sig_request = data[:signature_request][:signature_request_id]
+    decline = data[:signature_request][:signatures][0][:decline_reason]
+    who = data[:signature_request][:signatures][0][:signer_email_address]
     event = data[:event][:event_type]
-  if (event == "signature_request_downloadable")
+    if (event == "signature_request_downloadable")
     p "***********"
     p "The signature request is ready to download"
   elsif (event == "signature_request_sent")
@@ -23,17 +25,17 @@ class Sig3Controller < ApplicationController
     p "The signature request has been completed and is ready to download. The signature request ID is #{sig_request}"
   elsif (event == "signature_request_declined")
     p "***********"
-    p "The signature request has been declined"
+    p "The signature request has been declined. #{who} declined because: #{decline}"
   elsif (event == "signature_request_reassigned")
     p "***********"
     p "The signature request has been reassigned"
   else
     p "***********"
     p "Something went horribly wrong, please check your API Dashboard."
-  end
+    end
   
     render json: 'Hello API Event Received', status: 200
-end
+  end
 
 	def new
 	end
