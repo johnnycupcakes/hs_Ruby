@@ -9,11 +9,25 @@
     'allowCancel': true,
     'skipDomainVerification': true,
     'uxVersion': 2,
-    "messageListener" = function(eventData) {
-    if (eventData.event == HelloSign.EVENT_SENT) {
-        // Go to a signature request sent confirmation page
-        document.location = "/sent?signature_request_id=" 
-					+ eventData["signature_request_id"];
+    messageListener: function(eventData) {
+    if (eventData.event == HelloSign.EVENT_SIGNED) {
+            HelloSign.close();
+            console.log("Thank you for signing!");
+        } else if (eventData.event == HelloSign.EVENT_SENT) {
+            HelloSign.close();
+            console.log("Request sent!");
+        } else if (eventData.event == HelloSign.EVENT_CANCELED) {
+            HelloSign.close();
+            console.log("Thank you for canceling!");
+        } else if (eventData.event == HelloSign.EVENT_DECLINED) {
+            HelloSign.close();
+            console.log("Declined!");
+        } else if (eventData.event == HelloSign.EVENT_ERROR) {
+            HelloSign.close();
+            console.log("Errors suck!");
+        } else if (eventData.event == HelloSign.EVENT_TEMPLATE_CREATED) {
+            HelloSign.close();
+            console.log("Template created!");
         }
     }
   });

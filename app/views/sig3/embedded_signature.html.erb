@@ -10,12 +10,27 @@
     'skipDomainVerification': true,
     'uxVersion': 2,
     'redirectUrl': "http://www.hellosign.com/",
-    'messageListener': function(eventData) {
+    messageListener: function(eventData) {
     if (eventData.event == HelloSign.EVENT_SIGNED) {
-        // Go to a signature confirmation page
-        console.log (eventData["signature_id"] + " helllllloooooo");
+            HelloSign.close();
+            console.log("Thank you for signing!");
+        } else if (eventData.event == HelloSign.EVENT_SENT) {
+            HelloSign.close();
+            console.log("Request sent!");
+        } else if (eventData.event == HelloSign.EVENT_CANCELED) {
+            HelloSign.close();
+            console.log("Thank you for canceling!");
+        } else if (eventData.event == HelloSign.EVENT_DECLINED) {
+            HelloSign.close();
+            console.log("Declined!");
+        } else if (eventData.event == HelloSign.EVENT_ERROR) {
+            HelloSign.close();
+            console.log("Errors suck!");
+        } else if (eventData.event == HelloSign.EVENT_TEMPLATE_CREATED) {
+            HelloSign.close();
+            console.log("Template created!");
+        }
     }
-}
   });
 // ]]>
 </script>

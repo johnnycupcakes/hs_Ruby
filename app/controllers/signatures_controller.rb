@@ -60,7 +60,7 @@ client.create_embedded_signature_request_with_template(
       allow_decline: params[:decline],
       signers: [
         {
-            :email_address => 'nicholas.boutte+1@hellosign.com',
+            :email_address => params[:email],
             :name => 'Signer',
             :role => params[:signer_role]
         }
