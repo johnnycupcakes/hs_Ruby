@@ -52,7 +52,7 @@ private
   def create_embedded_signature_request_with_template(opts = {})
   client = HelloSign::Client.new :api_key => params[:api_key]
 client.create_embedded_signature_request_with_template(
-      test_mode: 1, #Set this to 1 for 'true'. 'false' is 0
+      test_mode: 0, #Set this to 1 for 'true'. 'false' is 0
       client_id: params[:client_id],
       subject: params[:subject],
       message: '',
