@@ -1,5 +1,5 @@
 require 'hello_sign'
-class Sig2Controller < ApplicationController
+class DownloadController < ApplicationController
   skip_before_action :verify_authenticity_token, only: [:callbacks]
 
   def callbacks
@@ -36,32 +36,25 @@ class Sig2Controller < ApplicationController
   
     render json: 'Hello API Event Received', status: 200
   end
-
+  
   def new
   end
 
   def create
-  signature_request_with_template = create_signature_request_with_template(name: params[:name], email: params[:email])
-  render :sent
+  downloadfiles = create_downloadfiles(name: params[:name], email: params[:email])
+  @sign_url = get_sign_url(downloadfiles)
+  render :download_signature
   end
 
 private
 
-  def create_signature_request_with_template(opts = {})
- client = HelloSign::Client.new :api_key => params[:api_key]
-client.send_signature_request_with_template(
-    test_mode: 1,
-    template_id: params[:template_id],
-    subject: params[:subject],
-    message: params[:message],
-    allow_decline: params[:decline],
-    signers: [
-        {
-            :email_address => params[:signer_email],
-            :name => params[:signer_name],
-            :role => params[:signer_role]
-        }
-    ]
-    )
+  def downloadfiles (opts = {})
+  client = HelloSign::Client.new :api_key => params[:api_key]
+  client.downloadfiles(
+  file_bin = client.signature_request_files :signature_request_id => params[signature_request_id], :file_type => 'zip'
+  open("files.zip", "wb") do |file|
+    file.write(file_bin)
   end
-end 
+
+
+end

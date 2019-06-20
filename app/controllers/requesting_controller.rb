@@ -53,8 +53,61 @@ private
       client_id: params[:client_id],
       type: 'request_signature',
       subject: params[:subject],
-      requester_email_address: params[:requester_email_address],
-      files: [params[:upload]]
+      signers: [
+        {
+            :email_address => params[:signer_email],
+            :name => 'Signer0',
+            :order => 0
+        },
+        {
+            :email_address => 'nicholas.boutte+1@hellosign.com',
+            :name => 'Signer1',
+            :order => 1
+        },
+        {
+            :email_address => 'nicholas.boutte+2@hellosign.com',
+            :name => 'Signer2',
+            :order => 2
+        }
+      ],
+      form_fields_per_document: [
+        {
+         :api_id => 'uniqueIdHere_1',
+            :name => 'uniqueIdHere_1',
+            :type => 'signature',
+            :x => 110,
+            :y => 140,
+            :required => true,
+            :signer => 0,
+            :page => 1
+
+        },
+        {
+         :api_id => 'uniqueIdHere_2',
+            :name => 'uniqueIdHere_2',
+            :type => 'signature',
+            :x => 120,
+            :y => 150,
+            :required => true,
+            :signer => 1,
+            :page => 1
+
+        },
+        {
+         :api_id => 'uniqueIdHere_3',
+            :name => 'uniqueIdHere_3',
+            :type => 'signature',
+            :x => 130,
+            :y => 160,
+            :required => true,
+            :signer => 1,
+            :page => 1
+
+        }
+      ],
+    requester_email_address: params[:requester_email_address],
+      files: [params[:upload]],
+      allow_reassign: [params[:allow_reassign]]
     )
     response.claim_url
   end

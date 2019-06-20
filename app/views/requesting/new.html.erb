@@ -10,6 +10,9 @@
 	  <%= text_area_tag :subject %>
 	  <%= label_tag 'Requester Email Address' %>
 	  <%= text_field_tag :requester_email_address %>
+	  <%= label_tag 'Allow Reassign?' %>
+	  <%= check_box_tag :allow_reassign %>
+	  <br>
 	  <%= submit_tag 'Embedded Requesting with Document for Non-Embedded Signing' %>
 	<% end %>
 	</body>

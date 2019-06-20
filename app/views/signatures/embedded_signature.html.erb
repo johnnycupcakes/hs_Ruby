@@ -4,58 +4,25 @@
 <script type="text/javascript">
 // <![CDATA[
 HelloSign.init('<%= @client_id %>'); 
-HelloSign.open({ 
-url: '<%= @sign_url %>', 
-allowCancel: false, 
-skipDomainVerification: false, 
-debug: (location.hostname == 'localhost'), 
-uxVersion: 2, 
-container: document.getElementById('vault-hellosign-iframe'), 
-messageListener: function(eventData) { 
-console.log(eventData);
+	HelloSign.open({ 
+		url: '<%= @sign_url %>', 
+		allowCancel: false, 
+		skipDomainVerification: true, 
+		redirectUrl: "http://www.example.com/",
+		debug: (location.hostname == 'localhost'), 
+		uxVersion: 2, 
+		redirectUrl: "http://hypebeast.com/",
+		container: document.getElementById('vault-hellosign-iframe'), 
+		messageListener: function(eventData) { 
+		console.log(eventData);
 
 // Make sure loader is closed 
 $('#vault-hellosign-progress').empty();
 
 // TODO: Notify API or wait for callback? 
 if (eventData.event === HelloSign.EVENT_SIGNED) { 
-console.log(eventData); 
+console.log(eventData["signature_request_id"]);
 } 
 } 
 });
-
-
-
-
-
-  // HelloSign.init( '<%= @client_id %>');
-  // HelloSign.open({
-  //   'url': '<%= @sign_url %>',
-  //   'allowCancel': true,
-  //   'skipDomainVerification': true,
-  //   'redirectUrl': "http://www.hypebeast.com/",
-  //   'uxVersion': 2,
-  //   messageListener: function(eventData) {
-  //   if (eventData.event == HelloSign.EVENT_SIGNED) {
-  //           HelloSign.close();
-  //           console.log("Thank you for signing!");
-  //       } else if (eventData.event == HelloSign.EVENT_SENT) {
-  //           HelloSign.close();
-  //           console.log("Request sent!");
-  //       } else if (eventData.event == HelloSign.EVENT_CANCELED) {
-  //           HelloSign.close();
-  //           console.log("Thank you for canceling!");
-  //       } else if (eventData.event == HelloSign.EVENT_DECLINED) {
-  //           HelloSign.close();
-  //           console.log("Declined!");
-  //       } else if (eventData.event == HelloSign.EVENT_ERROR) {
-  //           HelloSign.close();
-  //           console.log("Errors suck!");
-  //       } else if (eventData.event == HelloSign.EVENT_TEMPLATE_CREATED) {
-  //           HelloSign.close();
-  //           console.log("Template created!");
-  //       }
-  //   }
-  // });
-// ]]>
 </script>

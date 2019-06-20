@@ -6,6 +6,7 @@
  HelloSign.init( '<%= @client_id %>');
   HelloSign.open({
     'url': '<%= @claim_url %>',
+    'finalButtonText': "Continue",
     'allowCancel': true,
     'skipDomainVerification': true,
     'uxVersion': 2,
@@ -28,7 +29,9 @@
         } else if (eventData.event == HelloSign.EVENT_TEMPLATE_CREATED) {
             HelloSign.close();
             console.log("Template created!");
-        }
+        } else if (eventData.event == HelloSign.EVENT_REASSIGNED) {
+            HelloSign.close();
+            console.log("Event reassigned!");
     }
   });
 // ]]>

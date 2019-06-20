@@ -66,7 +66,11 @@ client.create_embedded_signature_request(
             :name => 'Signer',
             :role => 'Signer'
         }
-	    ]
+	    ],
+      custom_fields: {
+        :this => '$20,000',
+        :that => '$50,000'
+      }
     )
 	end
 
